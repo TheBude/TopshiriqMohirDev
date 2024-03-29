@@ -1,9 +1,12 @@
-﻿Console.WriteLine("Salom men EURO/USZ kurs hisoblash uchun kalkulyatrman");
-Console.Write("Sizda necha EURO bor:  ");
+﻿Console.WriteLine("Salom! Men valyutani so'mga aylantiruvchi dasturman!");
 
-string euro = Console.ReadLine();
-int copyEuro = Convert.ToInt32(euro);
-int hisob = copyEuro * 13650;
+Console.Write("Sizda necha dollar bor iltimos hisoblash uchun kiriting:  ");
+int pul = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"Sizning EURO valyutangiz so'mga hisoblaganda: {hisob} So'm");
-Console.WriteLine("Bizdan foydalanganingiz uchun rahmat!!!");
+Console.WriteLine("Hisoblamoqdamiz...");
+Console.WriteLine("Hisoblab chiqildi!");
+
+Console.WriteLine($"sizning {pul} dolloringizni so'mga aylantirganimizda shuncha {pul * 12250} so'mni tashkil etmoqda.\nBizning xizmatdan foydalanganingizdan xursandmiz!!!");
+
+
+
