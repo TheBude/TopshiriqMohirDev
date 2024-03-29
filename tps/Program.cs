@@ -5,4 +5,4 @@ string radius = Console.ReadLine();
 int copyRadius = Convert.ToInt32(radius);
 Console.WriteLine($"Doira yuzasi S =  {copyRadius * copyRadius * 3.141516}");
 Console.WriteLine($"Doira uzunligi! L =  {2 * copyRadius * 3.141516}");
-Console.WriteLine("Dastur yakunlandi!!!");
+Console.WriteLine("Dastur yakunlandi. Foydalanganingizdan xursandman!!!");
